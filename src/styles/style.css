@@ -7,3 +7,36 @@
 .container {
   padding: 16px;
 }
+
+.movie {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px 16px;
+}
+
+.movie .movie__poster {
+  width: 100%;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.movie .movie__info h4 {
+  margin: 8px 0;
+}
+
+.movie-detail {
+  display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  .movie .movie__poster {
+    margin-bottom: 20px;
+  }
+
+  .movie-detail {
+    display: block;
+  }
+}

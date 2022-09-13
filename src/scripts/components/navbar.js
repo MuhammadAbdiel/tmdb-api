@@ -5,7 +5,7 @@ class Navbar extends HTMLElement {
 
   render() {
     this.innerHTML = `
-      <nav class="navbar navbar-dark bg-primary">
+      <nav class="navbar navbar-dark bg-primary fixed-top">
         <div class="container py-0">
           <span class="navbar-brand mb-0 h1 fs-2">Movies</span>
         </div>
